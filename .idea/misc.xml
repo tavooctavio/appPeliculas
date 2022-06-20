@@ -6,7 +6,11 @@
         <entry key="app/src/main/res/drawable/gradient.xml" value="0.1975" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16394927536231885" />
         <entry key="app/src/main/res/layout/fragment_movie.xml" value="0.16394927536231885" />
-        <entry key="app/src/main/res/layout/fragment_movie_detail.xml" value="0.27613799606544387" />
+        <entry key="app/src/main/res/layout/fragment_movie_detail.xml" value="0.2663360595703123" />
+        <entry key="app/src/main/res/layout/movie_item.xml" value="0.39649872710739364" />
+        <entry key="app/src/main/res/layout/popular_movies_row.xml" value="0.1408514492753623" />
+        <entry key="app/src/main/res/layout/top_rated_movies_row.xml" value="0.1408514492753623" />
+        <entry key="app/src/main/res/layout/upcoming_movie_row.xml" value="0.29563965728317476" />
       </map>
     </option>
   </component>
