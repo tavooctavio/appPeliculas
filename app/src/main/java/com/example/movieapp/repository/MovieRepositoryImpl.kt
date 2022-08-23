@@ -4,7 +4,7 @@ import com.example.movieapp.data.model.MovieList
 import com.example.movieapp.data.remote.MovieDataSource
 import javax.sql.DataSource
 
-class MovieRepositoryImpl(private var dataSource: MovieDataSource): MovieRepository {
+class MovieRepositoryImpl(private val dataSource: MovieDataSource): MovieRepository {
 
     override suspend fun getUpcomingMovies(): MovieList = dataSource.getUpcomingMovies()
 

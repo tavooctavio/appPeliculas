@@ -1,5 +1,6 @@
 package com.example.movieapp.data.model
 
+
 data class Movie(
     val id: Int = -1,
     val adult: Boolean = false,
@@ -17,4 +18,4 @@ data class Movie(
     val vote_count: Int = -1
 )
 
-data class MovieList(val result: List<Movie> = listOf())
+data class MovieList(val results: List<Movie> = listOf())
