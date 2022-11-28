@@ -2,6 +2,7 @@ package com.example.movieapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.example.movieapp.R
 
 class MainActivity : AppCompatActivity() {
@@ -9,6 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        
+        Log.e("Prueba", "onCreate: Prueba", )
     }
 }
