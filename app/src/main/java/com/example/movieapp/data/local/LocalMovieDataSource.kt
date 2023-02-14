@@ -1,8 +1,8 @@
 package com.example.movieapp.data.local
 
-import com.example.movieapp.application.AppConstants
 import com.example.movieapp.data.model.MovieEntity
 import com.example.movieapp.data.model.MovieList
+import com.example.movieapp.data.model.local.MovieDao
 import com.example.movieapp.data.model.toMovieList
 
 class LocalMovieDataSource(private val movieDao: MovieDao) {
